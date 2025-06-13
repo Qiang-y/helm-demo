@@ -14,10 +14,9 @@ This Helm chart deploys a simple Nginx application on Tencent Kubernetes Engine 
 
 ### Method 1: Local Deployment
 
-1. Clone this repository (replace `<repository-url>` with the actual URL):
+1. Clone this repository :
    ```bash
-   git clone <repository-url>
-   cd nginx-demo
+   git clone https://github.com/Qiang-y/helm-demo.git
    ```
 
 2. Install the Helm chart:
@@ -27,14 +26,19 @@ This Helm chart deploys a simple Nginx application on Tencent Kubernetes Engine 
 
 ### Method 2: Repository Deployment
 
-1. Add the Helm repository (if applicable):
+1. Add the Helm repository:
    ```bash
-   helm repo add <repo-name> <repo-url>
+   helm repo add spot https://qiang-y.github.io/helm-demo/
    ```
 
-2. Install the chart directly from the repository:
+2. Search the chart from the repository:
    ```bash
-   helm install <release-name> <repo-name>/nginx-demo
+   helm search repo spot/nginx-demo
+   ```
+
+3. Install the chart directly from the repository:
+   ```bash
+   helm install <release-name> spot/nginx-demo
    ```
 
 ## Configuration
