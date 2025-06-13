@@ -3,7 +3,7 @@ entries:
   nginx-demo:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-06-13T11:27:15.841401+08:00"
+    created: "2025-06-13T11:39:28.070179+08:00"
     description: A Helm chart for Kubernetes
     digest: 20c9da1ffa9c0d5ffc131be18bc38d200fffa08ec66f40874848dee8b75ea5c4
     name: nginx-demo
@@ -11,4 +11,4 @@ entries:
     urls:
     - https://qiang-y.github.io/helm-demo/nginx-demo-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-13T11:27:15.839549+08:00"
+generated: "2025-06-13T11:39:28.068825+08:00"
